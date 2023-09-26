@@ -39,10 +39,14 @@ html {
  background-color: beige;
  float: left;
  background-color: pink;
-margin-left: 8%;
-padding-left: 1%;
-padding-right:1%;
+ width: 45%;
 
+margin-left: 8%;
+padding-left: 5%;
+padding-right:1%;
+padding-top: 5%;
+padding-bottom: 5%;
+line-height: 2,5%;
 }
 
 
@@ -52,7 +56,9 @@ padding-right:1%;
 
 .foto1
 
-{ padding-top: 10%;}
+{ padding-top: 10%;
+ 
+}
 
 
 .text
@@ -60,10 +66,17 @@ padding-right:1%;
 
 
 float: right;
+width: 45%;
+font-size:18px;
 
 
 }
+a{
+  color:#756158;
+  font-style:italic;
+  }
+a:hover{
+  color:black;
+  background-color:pink;
+  } 
 
-.footer
-{color: grey;
-text-align: center;}
